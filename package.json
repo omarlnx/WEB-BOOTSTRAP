@@ -1,0 +1,19 @@
+{
+  "name": "web-bootstrap",
+  "version": "1.0.0",
+  "description": "Primer proyecto de Nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarlnx/WEB-BOOTSTRAP.git"
+  },
+  "author": "Omar Moreno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omarlnx/WEB-BOOTSTRAP/issues"
+  },
+  "homepage": "https://github.com/omarlnx/WEB-BOOTSTRAP#readme"
+}
