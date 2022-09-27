@@ -8,10 +8,181 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
-    <title>Hello, world!</title>
+    <title>Guia Estudios Tatto!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+<!-- FLEXBOX VISUALIZACION DE LA PAG WEB, GESTIONA ESPACION ES UNICA DISPOSICION 
+EJE PRINCIPAL Y PERPENDICULAR 
+PINCIPAL flex-direction: 
+(row,row-reverse,---ELEMENTOS EN LINEA DE IZQ-DCHA, DCHA-IZQ
+column, column-reverse----VERTICAL ARRIBA-ABAJO, ABAJO-ARRIBA
+
+Cros axis (altura),(anchura ) para row y column resp
+
+CONTAINER 
+responsive y fluid conf el ancho en 100% en todos los disp
+bootstrap maneja 12 colunas por fila
+
+PANTALLA EXTRA-SMALL<576PX 
+)-->
+<!-- 
+<p>ESTAS COLUMNAS ESTAN CENTRADAS EN LA PAG PORQUE ESTAN EN UN DIV CON CLASE CONTAINER</p>
+    <div class="container">
+        <div class="row"> !-- row eje principal----  --
+            <div class="col-sm">Primer columna</div> !-- col eje vertica | --
+            <div class="col-sm">Segunda columna</div>
+            <div class="col-sm">Tercer columna</div>            
+        </div>
+    </div>
+
+    <div class="row">      
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+    </div>
+    <div class="row">      
+      <div class="col-8">col-8</div>
+      <div class="col-4">col-4</div>
+  </div>
+
+  !-- Alineacion vertical por fila aplica a todas las columnas por igual  --
+  <div class="row align-items-start">
+      <div class="container">
+        <div class="col">Primer columna</div>
+        <div class="col">Segunda columna</div>
+        <div class="col">Tercera columna</div>
+      </div>
+
+      <div class="row align-items-center">
+          <div class="col">Primer columna</div>
+          <div class="col">Segunda columna</div>
+          <div class="col">Tercera columna</div>
+        </div>
+    
+      <div class="row align-items-end">
+          <div class="col">Primer columna</div>
+          <div class="col">Segunda columna</div>
+          <div class="col">Tercera columna</div>
+        </div>  
+  </div>
+
+    !-- Alineacion vertical por columna  --
+
+    <div class="container">
+      <div class="row">
+        <div class="col align-self-start">1ER COLUMNA</div>
+        <div class="col align-self-center">2DA COLUMNA</div>
+        <div class="col align-self-end">3RA COLUMNA</div>
+      </div>
+    </div>
+
+
+    !-- ofset --
+    <div class="row">
+        <div class="col-md-4">.col-md-4</div>
+        <div class="col-md-4 offset-md-4">.col-md-4 .ofset-md-4</div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">col-md-3</div>
+      <div class="col-md-3 offset-md-3">col-md-4 ofset-md-3</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 offset-md-3">.col-md-3</div>
+ </div>
+
+!-- niveles --
+
+ <div class="row">
+  <div class="column-sm-9">
+    Nivel 1 column-sm-9
+    <div class="row">
+      <div class="col-8 col-sm-6">
+        Nivel 2 col-8 col-sm-6
+      </div>
+      <div class="col-4 col-sm-6">
+        Nivel 2 col-4 col-sm-6
+      </div>
+    </div>
+  </div>
+ </div>
+
+ -->
+ <div class="jumbotron">
+  <h1 class="display-4">Sueño sobre caballo-La guia!</h1>
+  
+  <hr class="my-4">
+</div>
+
+<div class="container">
+   <div class="row">
+    <div class="col-sm-4">
+        <h2>Mejores trabajos</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt et, explicabo laborum sunt illum necessitatibus ullam fuga, iure eveniet ipsa porro dolores cum est voluptas inventore dolore neque modi iusto.</p>
+    </div>
+    <div class="col-sm-4">
+        <h2>Las mejores resañas</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum vel quasi nemo ipsam animi unde quas molestias dolores eos minus et error ea aliquam, provident, harum a veniam placeat qui?</p>
+    </div>
+    <div class="col-sm-4">
+        <h2>Los mejoresartistas</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum incidunt nobis? Molestiae reprehenderit nemo temporibus labore nobis amet nostrum autem soluta. Quo amet aspernatur magni error magnam, pariatur quae?</p>
+    </div>
+  </div>
+  <hr class="my-6">
+
+  <!--  -->
+
+  <div class="row">
+  <div class="col-sm-3">
+    <h2>Los mejoresartistas</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum incidunt nobis? Molestiae reprehenderit nemo temporibus labore nobis amet nostrum autem soluta. Quo amet aspernatur magni error magnam, pariatur quae?</p>
+    <button class="btn">Visitar</button>
+  </div>
+
+  <div class="col-sm-3">
+    <h2>Los mejoresartistas</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum incidunt nobis? Molestiae reprehenderit nemo temporibus labore nobis amet nostrum autem soluta. Quo amet aspernatur magni error magnam, pariatur quae?</p>
+    <button class="btn">Visitar</button>
+  </div>
+<div class="col-sm-3">
+  <h2>Los mejoresartistas</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum incidunt nobis? Molestiae reprehenderit nemo temporibus labore nobis amet nostrum autem soluta. Quo amet aspernatur magni error magnam, pariatur quae?</p>
+  <button class="btn">Visitar</button>
+</div>
+<div class="col-sm-3">
+  <h2>Los mejoresartistas</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum incidunt nobis? Molestiae reprehenderit nemo temporibus labore nobis amet nostrum autem soluta. Quo amet aspernatur magni error magnam, pariatur quae?</p>
+  <button class="btn">Visitar</button>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
